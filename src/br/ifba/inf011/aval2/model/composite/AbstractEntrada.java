@@ -5,8 +5,8 @@ import java.util.Objects;
 
 
 public class AbstractEntrada {
-	private String nome;
-	private LocalDate dataCriacao;
+	public String nome;
+	public LocalDate dataCriacao;
 	
 	public AbstractEntrada(String nome, LocalDate dataCriacao) {
 		super();
@@ -22,7 +22,6 @@ public class AbstractEntrada {
 		return dataCriacao;
 	}
 	
-
 
 	@Override
 	public int hashCode() {
@@ -40,10 +39,6 @@ public class AbstractEntrada {
 		AbstractEntrada other = (AbstractEntrada) obj;
 		return Objects.equals(nome, other.nome);
 	}
-	
-	
-
-	
 	
 }
 

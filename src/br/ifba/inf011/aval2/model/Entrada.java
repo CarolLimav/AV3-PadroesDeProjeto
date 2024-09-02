@@ -13,5 +13,4 @@ public interface Entrada {
 	public void addFilho(Entrada entrada) throws UnsupportedOperationException;
 	public void removeFilho(Entrada entrada) throws UnsupportedOperationException;
 	
-	
 }
